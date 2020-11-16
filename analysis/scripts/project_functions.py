@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def load_and_process(redwine_path, whitewine_path):
  
     #Loaded the data 
@@ -35,7 +40,22 @@ def load_and_process(redwine_path, whitewine_path):
             #re-shuffle the data points
             .sample(frac = 1, random_state = 101)
             .reset_index(drop = True)
+            #drop any duplicate rows
+            .drop_duplicates()
            )
     # return the latest dataframe
 
     return allwines
+
+def boxplot1(a, x, y , z):
+    boxplot = sns.boxplot(ax = a, 
+                data = df, 
+            x = x, 
+            y = y, 
+            hue = z, 
+            palette={'red wine': '#ED5CDE', 'white wine': '#09940F'}
+           )
+    return boxplot
+
+
+
