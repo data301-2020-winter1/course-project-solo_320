@@ -1,1 +1,3 @@
-All external images used will go in this directory.
+#### All data will be stored in this directory.
+
+- So far I have not saved **any images**
