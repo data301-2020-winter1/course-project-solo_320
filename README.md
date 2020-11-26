@@ -1,5 +1,5 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=312303&assignment_repo_type=GroupAssignmentRepo)
-# Group 320 - Wine quality analysis.
+# Group 320 - Wine Quality Analysis.
 
 - Your title can change over time.
 
@@ -26,5 +26,4 @@ For the project I have chosen the wine quality data set from the UC Irvine Machi
 
 ## References
 
-{P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
-Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.}
+Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems, 47*(4), 547-553. doi:10.1016/j.dss.2009.05.016
