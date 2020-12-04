@@ -7,6 +7,7 @@ So far this analysis folder contains:
 - **markdowndemonstration.ipynb**: based on task 1; a demonstration of my skills with markdown.
 - **output.html**: the output of the pandas profiling I used in EDA.
 - **scripts folder**: you will find the `project_functions.py` module here.
+- **ProjectTableau.twb** Final tableau workbook with my dashboards.
     
     
     
